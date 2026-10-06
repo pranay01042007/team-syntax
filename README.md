@@ -80,3 +80,48 @@ All 4 team members can work simultaneously across separate laptops:
 ---
 
 *Build freely. Use AI freely. Secure what you build. Document what you claim. Prove what you implemented.*
+
+---
+
+## 5. MarketHub — Application Documentation
+
+### Project Overview
+**MarketHub** is a secure, multi-vendor e-commerce marketplace platform built by Team Syntax (Team ID: 71) for the Build Secure 24 Hackathon.
+
+### Demo User Accounts
+| Role | Email | Password | Description |
+|------|-------|----------|-------------|
+| **Admin** | `admin@markethub.com` | `Admin@123` | Platform oversight, user management, and order auditing |
+| **Vendor 1** | `techvendor@markethub.com` | `Vendor@123` | Apex Tech Hub store owner |
+| **Vendor 2** | `stylevendor@markethub.com` | `Vendor@123` | UrbanStyle & Co store owner |
+| **Customer** | `customer@markethub.com` | `Customer@123` | Verified shopper |
+
+### Quick Start Instructions
+
+#### Backend (FastAPI + SQLAlchemy + SQLite)
+```bash
+cd src/backend
+pip install -r requirements.txt
+python -m app.database.seed
+python run.py
+```
+- API Base: `http://localhost:8000/api`
+- Health Endpoint: `http://localhost:8000/health` (HTTP 200, `{"status": "healthy", "service": "MarketHub API"}`)
+
+#### Frontend (React + Vite)
+```bash
+cd src/frontend
+npm install
+npm run build
+npm run preview -- --port 5173
+# Or for live hot-reload development:
+npm run dev
+```
+- Web Application: `http://localhost:5173`
+
+#### Automated Test Suite
+```bash
+cd src/backend
+pytest tests -v
+```
+All 25 automated security, RBAC, cart, order, and catalog test cases pass with 100% success rate.
