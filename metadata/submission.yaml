@@ -6,6 +6,6 @@ version: "1.0"
 submission:
   team_id: "71"
   repository: "https://github.com/pranay01042007/team-syntax"
-  commit_sha: "036ff3f5e0e00624f4907da69685d4912c41ef4c"
+  commit_sha: "35ef1c607d1d25aa78ca0b2810a7f34d61570a65"
   deployment_url: "http://localhost:5173"
   submitted_at: "2026-10-06T11:51:00+05:30"
