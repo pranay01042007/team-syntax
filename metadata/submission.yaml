@@ -4,8 +4,8 @@
 version: "1.0"
 
 submission:
-  team_id: ""
-  repository: ""
+  team_id: "71"
+  repository: "https://github.com/pranay01042007/team-syntax"
   commit_sha: ""
   deployment_url: ""
   submitted_at: ""

@@ -4,16 +4,16 @@
 # - If your team has 4 members: provide all 4 members.
 
 team:
-  team_id: ""
-  name: ""
-  repository: "" # URL of the newly created GitHub repository for this project
+  team_id: "71"
+  name: "syntax"
+  repository: "https://github.com/pranay01042007/team-syntax" # URL of the newly created GitHub repository for this project
 
 members:
-  - name: ""
-    email: ""
-  - name: ""
-    email: ""
-  - name: ""
-    email: ""
-  - name: ""
-    email: ""
+  - name: "P. Daniel"
+    email: "pasumarthidanieljames@gmail.com"
+  - name: "R. Shiva Dorababu"
+    email: "shivadorababu@gmail.com"
+  - name: "D. Nagavarun"
+    email: "nagavarundubbaka@gmail.com"
+  - name: "M. Pranay"
+    email: "pranay01042007@gmail.com"
